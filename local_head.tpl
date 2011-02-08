@@ -1,5 +1,6 @@
 {literal}
 <script type="text/javascript" src="themes/default/js/jquery.js"></script>
+<script type="text/javascript" src="themes/OS_glass/tiptip/jquery.tipTip.minified.js"></script>
   <script type="text/javascript">
 jQuery(document).ready(function(){
 	$(".titre_acordeon").click(function() {
@@ -11,7 +12,13 @@ jQuery(document).ready(function(){
 		$(this).next().toggle("medium");
 	}).next().show();
 });
-  
+$(function(){
+    $(".categoryActions A").tipTip({delay : 0, fadeIn : 200, fadeOut : 200, });
+    $("#home_icon A").tipTip({edgeOffset : 10, fadeIn : 200, fadeOut : 200, defaultPosition : "top" });
+    $(".randomButtons A").tipTip({delay : 0, fadeIn : 200, fadeOut : 200, });
+    $(".navButtons A").tipTip({delay : 0, fadeIn : 200, fadeOut : 200, });
+    $("#mbCategories a").tipTip({delay : 0, fadeIn : 200, fadeOut : 200, });
+});
   </script>
     <!--[if lt IE 7]>
 <style>
