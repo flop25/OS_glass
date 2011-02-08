@@ -3,7 +3,7 @@
 Theme Name: OS_glass
 Version: 1.0.0
 Description: 
-Theme URI: http://fr.piwigo.org/ext/extension_view.php?eid=383
+Theme URI: http://piwigo.org/ext/extension_view.php?eid=498
 Author: flop25
 Author URI: http://www.planete-flop.fr/site.php?acc=file
 */
