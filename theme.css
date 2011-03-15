@@ -195,7 +195,7 @@ FIELDSET, INPUT, SELECT, TEXTAREA,
   border-color: #0066CC;		/* thumbnails border color when mouse cursor is over it */
   color: #0066CC;
 }
-.thumbnailCategory IMG {
+.illustration IMG {
 	border: 2px solid #FFFFFF;
 }
 /* links */
