@@ -61,7 +61,7 @@ background: transparent url(images/section_in.png) repeat top center;
 }
 
 .content DIV.thumbnailCategory {
-	background-image: url(../../icon/menu/folder.png);
+	background-image: url(../OS_default/icon/menu/folder.png);
 	background-position: left bottom;
 	background-repeat:no-repeat;
 }

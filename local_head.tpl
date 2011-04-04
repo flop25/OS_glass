@@ -1,3 +1,23 @@
+
+{footer_script}
+{literal} 
+var max_dim_width = 0;
+var max_dim_height = 0;
+jQuery(document).ready(function() {
+  $(".thumbnails img").each(function () {
+    if (jQuery(this).height() > max_dim_height)
+      max_dim_height = jQuery(this).height() + 10;
+    if (jQuery(this).width() > max_dim_width)
+      max_dim_width = jQuery(this).width() + 10;
+
+    jQuery(".wrap2")
+      .css('width', max_dim_width+'px')
+      .css('height', max_dim_height+'px');
+  });
+});
+{/literal}
+{/footer_script}
+
 {combine_script id='jquery.tipTip.minified' load='header' require='jquery' path='themes/OS_glass/tiptip/jquery.tipTip.minified.js'}
 {html_head}{literal} 
 <script type="text/javascript">
@@ -21,7 +41,7 @@ $(function(){
   </script> 
 {/literal}
 {/html_head}
-{literal} 
+{literal}
 <!--[if lt IE 7]>
 <style>
 	#menubar dl, #section_in {
