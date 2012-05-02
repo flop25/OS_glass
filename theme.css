@@ -14,9 +14,6 @@ INPUT.rateButtonSelected  {
 }
 
 /* backgrounds */
-H3, .throw {
-  background-color: #ffffff;	/* white */
-}
 body {
 	background-image: url(images/bg.jpg);
 	background-repeat: no-repeat;
@@ -248,6 +245,7 @@ background:transparent;
 	background-repeat:repeat-x;
 	background-position: center bottom;
 	background-color: #000000;
+  color:#fff;
 }/*
 #imageToolBar A:hover {
 background-image: url(images/fondMenuSurvol.gif);
@@ -280,6 +278,27 @@ background-color:transparent;
 	border:#FFF solid 2px;
 	width:auto;
 }
+#derivativeSwitchBox {
+	font-size: 11px;
+	color: #000033;
+	text-shadow: 0 0 2px #ccc;
+	padding: 4px 8px;
+	border: 1px solid rgba(255,255,255,0.25);
+	background-color: rgb(255,255,255);
+	background-color: rgba(255,255,255,0.92);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#fff));
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: 0 0 5px #555;
+	-webkit-box-shadow: 0 0 5px #555;
+	-moz-box-shadow: 0 0 5px #555;
+}
+#derivativeSwitchBox A:hover{
+	text-shadow: 0 0 2px #000;
+  color:
+}
+
 /*calendar elements*/
 SPAN.calItem, SPAN.calItemEmpty
 {
