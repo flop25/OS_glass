@@ -278,7 +278,7 @@ background-color:transparent;
 	border:#FFF solid 2px;
 	width:auto;
 }
-#derivativeSwitchBox {
+#derivativeSwitchBox, #sortOrderBox {
 	font-size: 11px;
 	color: #000033;
 	text-shadow: 0 0 2px #ccc;
@@ -294,9 +294,8 @@ background-color:transparent;
 	-webkit-box-shadow: 0 0 5px #555;
 	-moz-box-shadow: 0 0 5px #555;
 }
-#derivativeSwitchBox A:hover{
+#derivativeSwitchBox A:hover, #sortOrderBox A:hover {
 	text-shadow: 0 0 2px #000;
-  color:
 }
 
 /*calendar elements*/
